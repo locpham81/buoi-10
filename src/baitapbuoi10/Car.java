@@ -21,7 +21,7 @@ public class Car extends Vehicle {
         System.out.println("Engine type: " + type);
 	}
 	
-	public int getSpeed() {
-		return maxspeed;
+	public float getmaxSpeed() {
+		return super.getMaxSpeed();
 	}
 }

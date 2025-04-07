@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Fraction {
 	private int numerator, denominator;
 	
+	//khởi tạo ko tham số
 	public Fraction(){
 		numerator = 0;
 		denominator = 1;
@@ -43,10 +44,10 @@ public class Fraction {
 		return result;
 	}
 	//chia
-	public Fraction devide(Fraction newFraction) {
+	public Fraction divide(Fraction newFraction) {
 		Fraction result = new Fraction();
 		result.numerator = numerator * newFraction.denominator;
-		result.denominator = denominator* newFraction.numerator;
+		result.denominator = denominator * newFraction.numerator;
 		return result;
 	}
 }
